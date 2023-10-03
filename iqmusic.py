@@ -8,5 +8,6 @@ async def main():
    | ميوزك القران الان شغال ! |
     ------------------"""    )
     await idle()
-    await arq.close()loop = asyncio.get_event_loop()
+    await arq.close()
+loop = asyncio.get_event_loop()
 loop.run_until_complete(iqmusic())
